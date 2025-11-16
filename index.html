@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aaryan Dhakal - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <a href="#home">Aaryan</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          🌙
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Aaryan Dhakal</span>
+          </h1>
+          <p class="hero-subtitle">
+            Designer & Developer crafting accessible, high-performance digital
+            experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <div class="about-content">
+            <p class="about-text">
+              I build modern, accessible interfaces focused on performance and
+              delightful user experiences. With a passion for clean code and
+              thoughtful design, I turn complex problems into elegant solutions.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="container">
+          <h2 class="section-title">Selected Work</h2>
+          <div class="work-grid">
+            <article class="work-item">
+              <div class="work-image">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Project One"
+                />
+              </div>
+              <div class="work-content">
+                <h3>Project One</h3>
+                <p>Modern UI with rapid prototyping and accessible patterns.</p>
+                <span class="work-tech"
+                  >React • Accessibility • Design System</span
+                >
+              </div>
+            </article>
+            <article class="work-item">
+              <div class="work-image">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Project Two"
+                />
+              </div>
+              <div class="work-content">
+                <h3>Project Two</h3>
+                <p>High-performance architecture with server-side rendering.</p>
+                <span class="work-tech">Next.js • Performance • CI</span>
+              </div>
+            </article>
+            <article class="work-item">
+              <div class="work-image">
+                <img
+                  src="https://placehold.co/600x400"
+                  alt="Project Three"
+                />
+              </div>
+              <div class="work-content">
+                <h3>Project Three</h3>
+                <p>
+                  Design-led product development with strong brand identity.
+                </p>
+                <span class="work-tech">Figma • Branding • Product</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="contact-intro">
+            Have a project in mind or just want to chat? I'd love to hear from
+            you.
+          </p>
+          <form class="contact-form">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Aaryan Dhakal. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
